@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Css/Estilo.css">
+</head>
+<body>
+     <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> Micaela </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar() ">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()" >Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()" >Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()" >Contacto</a></li>
+                </ul>
+            </nav>
+           <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+           </div> 
+        </header>
+    </div>
+
+    <!-- INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/Foto.jpg" alt="$">
+            </div>
+            <h1>Micaela Garcia Bulacio</h1>
+        
+            <div class="redes">
+                <a href="https://www.facebook.com/micaela.garcia.940098/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/micaelagarcia24/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/micagarcia24"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><Span>Hola, soy Mica </Span> Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales.
+                Habilidad para trabajar en equipo. Cuento con muchas ganas de seguir mejorando y aprendiendo.</p>
+
+                <div class="fila">
+                    <!--DATOS PERSONALES-->
+                    <DIV class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                           <li>
+                                <strong>Email</strong>
+                                micagarcia99@gmail.com
+                           </li>
+                            <li>
+                                <strong>Celular</strong>
+                                3816975759
+                            </li>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                22-08-1999
+                            </li>
+                            <li>
+                                <strong>Edad</strong>
+                                24 Años
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Santiago 1122, 1er Piso - Departamento n° 14
+                            </li>
+                        </ul>
+                    </DIV>
+                     <!--Intereses-->
+                     <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Juegos</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>Música</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>Deportes</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>Fotos</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-palette"></i>
+                                <span>Dibujar</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-laptop"></i>
+                                <span>Computación</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>Libros</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-paw"></i>
+                                <span>Animales</span>
+                            </div>
+                            
+                        </div>
+
+                     </div>
+                </div>
+                
+                <button>
+                    <a href="CV/CV.Micaela Garcia.pdf" download="Micaela-Garcia-Bulacio-CV.pdf">
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </a>
+                </button>
+        </div>
+
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+
+                <!-- HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso css">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Primaria y Secundario</h4>
+                            <span class="casa">Colegio Maria Auxiliadora</span>
+                            <span class="fecha">2005 - 2017</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Titulo Secundario</h4>
+                            <span class="casa">Colegio Maria Auxiliadora</span>
+                            <span class="fecha">2017</span>
+                            <p>Bachiller en Humanidades y Ciencias Sociales</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Facultad de Odontologia</h4>
+                            <span class="casa">Facultad De Odontologia Universidad Nacional de Tucuman</span>
+                            <span class="fecha">2018 -  2022</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Tecnicatura en Programación</h4>
+                            <span class="casa">Universidad Tecnológica Nacional</span>
+                            <span class="fecha">2023 -  Actualmente</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item der">
+                            <h4>Cervecería</h4>
+                            <span class="casa">Antares</span>
+                            <span class="fecha">2019 - 2020</span>
+                            <p>Recepción de Clientes.</p>
+                            <p>Servicio de Mesa.</p>
+                            <p>Atención al Cliente.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Asistente Dental</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2021 - 2022</span>
+                            <p>Asistencia en cirugías odontológicas.</p>
+                            <p>Control de stock de materiales e insumos dentales.</p>
+                            <p>Atención y recepción de pacientes.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Jugueteria</h4>
+                            <span class="casa">Imaginá</span>
+                            <span class="fecha">2022 - 2023</span>
+                            <p>Atención al Cliente.</p>
+                            <p>Ventas y cobranzas.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Niñera </h4>
+                            <span class="fecha">2019 - 2023</span>
+                            <p>Proporcioné cuidado y atención a niños con un rango de edad entre los 2 meses y 10 años de edad.</p>
+                            <p>Organizamos actividades educativas y recreativas para fomentar el desarrollo infantil.</p>
+                            <p>Asistí con tareas domésticas ligeras relacionadas con el cuidado de los niños.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Jugueteria</h4>
+                            <span class="casa">Tiendida</span>
+                            <span class="fecha">2023 - Actualidad</span>
+                            <p>Atención al Cliente.</p>
+                            <p>Ventas y cobranzas.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                
+                <div class="proyecto">
+                    <img src="Imagenes/EnamorAte.JPG" alt="Imagen-EnamorArte">
+                    <div class="overlay">
+                        <h3>Diseño de Página Web</h3>
+                        <p>Fotografía</p>
+                        <a href="https://micagarcia24.github.io/EnamorArte.html/" target="_blank" class="boton-enlace">
+                            Ir a la Página Completa
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/Crud.JPG" alt="Imagen-Crud">
+                    <div class="overlay">
+                        <h3>Proyecto Crud</h3>
+                        <p>Fotografía</p>
+                        <a href="https://micagarcia24.github.io/ProyectoCrud.html/login.html" target="_blank" class="boton-enlace">
+                            Ir a la Página Completa
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/Cosmo.JPG" alt="Imagen-Cosmetics">
+                    <div class="overlay">
+                        <h3>Proyecto Cosmos</h3>
+                        <p>Fotografía</p>
+                        <a href=https://micagarcia24.github.io/Cosmo/ target="_blank" class="boton-enlace">
+                            Ir a la Página Completa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+             
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Santiago 1122 - 1er Piso - Departamento 14
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Telefono: 3816975759
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: micagarcia99@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/micaela.garcia.940098/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/micaelagarcia24/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/micagarcia24"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="Js/Index.js"></script>
+</body>
+</html>
